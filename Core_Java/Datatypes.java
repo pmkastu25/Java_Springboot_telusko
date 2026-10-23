@@ -43,13 +43,14 @@ public class Datatypes {
         double n4 = 12e10;// 12 * 10^10 //--> integer gets converted to double automatically
         System.out.println(n4);
 
-        //Char cn e incremented
+        //Char can be incremented
         char chr = 'a';
         System.out.println(chr);
         chr++;
         System.out.println(chr);
 
         //String Literal 
-        System.out.println("Hello Bro");
+        String st = "Hello Bro";
+        System.out.println(st);
     }
 }

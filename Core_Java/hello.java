@@ -15,6 +15,6 @@ class hello{
 2. java file_name
 
 -------------------------------------OR------------------------------------
-java file_name.java  ------->  without .class file creation
+java file_name.java  ------->  without .class file creation (works after java 14 version)
 
 */
