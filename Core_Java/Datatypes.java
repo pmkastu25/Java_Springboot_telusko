@@ -29,6 +29,27 @@ public class Datatypes {
 
         // 4. Boolean
         boolean bool = true;
+        // boolean bool = 1; --> error --> int cant be converted to bool
         System.out.println(bool);
+
+        // literals
+        int n1 = 0b101; //binary format --> 5;
+        int n2 = 0x7E; //Hexadecimal _--> 126
+        System.out.println(n1+" "+n2);
+
+        int n3 = 10_00_00_000; //easier to identify the number of zeroes
+        System.out.println(n3);
+
+        double n4 = 12e10;// 12 * 10^10 //--> integer gets converted to double automatically
+        System.out.println(n4);
+
+        //Char cn e incremented
+        char chr = 'a';
+        System.out.println(chr);
+        chr++;
+        System.out.println(chr);
+
+        //String Literal 
+        System.out.println("Hello Bro");
     }
 }
