@@ -9,14 +9,14 @@ public class Operators {
         int res = num1 + num2;
         System.out.println(res);
 
-         int res1 = num1 - num2;
+        int res1 = num1 - num2;
         System.out.println(res1);
 
-         int res2 = num1 / num2;
+        int res2 = num1 / num2;
         System.out.println(res2);
 
         //Modulus Operator --> find remainder
-         int res3 = num1 % num2;
+        int res3 = num1 % num2;
         System.out.println(res3);
 
         // num1 = num1 + 2;
