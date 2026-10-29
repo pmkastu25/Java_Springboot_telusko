@@ -61,6 +61,7 @@ public class Loops {
         }
         System.out.println();
 
+        //Without initialization inside
         int a=1;
         for(;a<=9;){
             System.out.println(a+" For loop(initialization outside)");
