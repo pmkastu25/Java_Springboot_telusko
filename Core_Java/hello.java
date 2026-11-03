@@ -6,6 +6,7 @@ class hello{
         int res = num1 + num2;
         System.out.println(res+num);
         System.out.println("Hello World");
+         System.out.println("Java Developer");
     }
 }
 
